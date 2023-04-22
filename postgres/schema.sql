@@ -1,0 +1,5 @@
+CREATE TABLE books (
+    id         SERIAL      PRIMARY KEY,
+    title      VARCHAR(50) NOT NULL,
+    created_on TIMESTAMP   NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
